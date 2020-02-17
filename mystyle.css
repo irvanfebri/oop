@@ -1,0 +1,122 @@
+* {
+    font-family: Courier New;
+}
+legend {
+ text-decoration: underline;   
+}
+
+div.container {
+    margin: 0 auto;
+    width: 1200px;
+    border-radius: 10px;
+}
+
+div.container {
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    background-color: #C5CC7C;
+}
+
+ a {
+  cursor: pointer;
+  color: #770AFC;
+  text-decoration: none;
+ }
+ a:hover {
+  color: #111111;
+  
+  text-decoration: underline;
+ }
+
+
+body {
+    background-color: rgb(48, 48, 48);
+}
+
+span.coret {
+ text-decoration: line-through;
+}
+
+/*===========Tebal==========*/
+div.guess {
+ background-color: red;
+ color: red;
+ width: 300px
+}
+
+div.guess:hover {
+ background-color: white;
+}
+
+.guess {cursor: pointer;}
+
+fieldset {
+ margin-bottom: 20px;
+}
+
+
+.error {
+ border-radius: 5px;
+ padding: 3px;
+ background-color: #FFB2B2;
+ color: black;
+ font-weight: bolder;
+}
+
+.strong {
+ border-radius: 5px;
+ padding: 3px;
+ background-color: #7FF489;
+ color: black;
+ font-weight: bolder;
+}
+
+.target {
+ border-radius: 5px;
+ padding: 3px;
+ background-color: #9A80F2;
+ color: black;
+ font-weight: bolder;
+}
+
+div.header {
+ font-weight: bolder;
+ color: white;
+ cursor: pointer;
+ text-align: center;
+ position: fixed;
+ right: 0;
+ border-radius: 5px;
+ padding: 10px;
+ width: 60px;
+ background-color: #F79F25;
+}
+
+div.header:hover {
+ color: white;
+ background-color: #F7AB4F;
+}
+
+div.kesimpulan {
+ color: #494949;
+ font-style: oblique;
+ text-align: center;
+ margin-top: 50px;
+ margin-left: 50px;
+ margin-right: 50px;
+ margin-bottom: 50px;
+}
+
+li {
+ line-height: 30px;
+ text-align: justify;
+}
+
+.litle {
+ font-size: 12px;
+ font-weight: bold;
+ text-decoration: overline;
+}
